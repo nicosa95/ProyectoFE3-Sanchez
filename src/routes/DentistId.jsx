@@ -30,7 +30,7 @@ export default function DentistId() {
         <h1>Loading...</h1>
       ) : (
         <>
-          <h1>Professional {dentist.id} </h1>
+          <h1>Professional ID {dentist.id} </h1>
           <article>
             <h2>{dentist.name}</h2>
             <p>{dentist.username}</p>
