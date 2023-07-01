@@ -339,6 +339,13 @@ input {
   color: var(--purple);
 }
 
+.subtitle {
+  font-size: small;
+  font-weight: bold;
+  color: var(--purple);
+}
+
+
 .logo {
   font-size: 45px;
 }
@@ -356,6 +363,10 @@ input {
 }
 
 .dark .title {
+  color: var(--purple-light);
+}
+
+.dark .subtitle {
   color: var(--purple-light);
 }
 
